@@ -32,6 +32,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; //1rem = 10px, 10/16 = 62,5%
+
+  @media only screen and (max-width: 68.75em) {
+    font-size: 50%;
+  }
 }
 body {
   background-color: var(--color-primary);
