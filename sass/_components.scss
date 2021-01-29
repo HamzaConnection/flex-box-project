@@ -132,7 +132,7 @@
   list-style: none;
   margin-top: 3.5rem;
 
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 68.75em) {
     display: flex;
     margin: 0;
   }
@@ -215,7 +215,7 @@
   padding: 2.5rem;
   color: var(--color-grey-light-4);
 
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 68.75em) {
     display: none;
   }
 }
@@ -279,6 +279,10 @@
     margin-left: 3rem;
     padding: 0 2.25rem;
     align-self: stretch;
+
+    @media only screen and (max-width: 56.25em) {
+      align-self: unset;
+    }
 
     @media only screen and (max-width: 37.5em) {
       padding: 0rem 1.5rem;
@@ -413,7 +417,7 @@
     border-radius: 50%;
     border: 3px solid #fff;
     &:not(:last-child) {
-      margin-right: -2rem;
+      margin-right: -1rem;
     }
   }
 }

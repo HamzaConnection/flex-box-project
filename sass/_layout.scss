@@ -3,7 +3,7 @@
   margin: 8rem auto;
   background-color: var(--color-grey-light-1);
   box-shadow: var(--shadow-dark);
-  min-height: 50rem;
+  //min-height: 50rem;
 
   @media only screen and (max-width: 75em) {
     margin: 0;
@@ -31,7 +31,7 @@
 .content {
   display: flex;
 
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 68.75em) {
     flex-direction: column;
   }
 }
@@ -58,7 +58,7 @@
   background-color: var(--color-grey-light-1);
   border-bottom: var(--line);
 
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 68.75em) {
     padding: 2rem;
     flex-direction: column;
   }
@@ -71,12 +71,12 @@
   flex: 0 0 60%;
   margin-right: 4.5rem;
 
-  @media only screen and (max-width: 56.25em) {
-    padding: 1rem;
+  @media only screen and (max-width: 68.75em) {
+    padding: 2rem;
     margin-right: 2rem;
   }
 
-  @media only screen and (max-width: 56.5em) {
+  @media only screen and (max-width: 68.75em) {
     margin-right: 0rem;
     margin-bottom: 2.5rem;
   }
